@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://icons8.com/icon/17480/triforce">
+    <script src="https://kit.fontawesome.com/8b974eeffa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GamiaX | Forums</title>
+    <link rel="icon" href="icons8-triforce-32.png" type="image/icon">
+</head>
+
+<body class="forum">
+    <!-- Navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <a id="title" href="01_home.html">
+                <img size="30px" src="https://img.icons8.com/ios-filled/50/000000/triforce.png" /> GamiaX
+            </a>
+        </h1>
+        <ul>
+            <li><a href="01_home.html">Home</a></li>
+            <li><a class="current" href="02_Forums.html">Forums</a></li>
+            <li id="c1" class="dropdown">More<a href="#"><i class="fas fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="#">About Gamiacs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">User Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="container">
+        <div class="form-wrap">
+            <h1 class="st">New to Forums?</h1>
+            <p class="st1">Don't worry, signing up is free and only takes a minute.</p>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="firstName" id="first-name" />
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="lastName" id="last-name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" name="pasword2" id="password2" />
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="signing" id="sign">Keep me signed in.
+                </div>
+                <div>
+                    <input type="checkbox" name="Agreement" id="Agreement2">I agree to be fully respectful to the fellow members.
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <p class="bottom-text">
+                    By clicking the Sign Up button, you agree to our
+                    <a href="#">Terms & Conditions</a> and
+                    <a href="#">Privacy Policy</a>
+                </p>
+                <br>
+                <p>Already have an account? <a id="endlink" href="#">Login Here</a></p>
+            </form>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2020 , GamiaX , All Rights Reserved</p>
+        </footer>
+
+</body>
+
+</html>
